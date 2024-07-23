@@ -21,5 +21,5 @@ spec:
           image: nurbolm/argocd:v0.1.0
           ports:
             - containerPort: 80
-      # imagePullSecrets:
-      #   - name: dockerconfigjson
+      imagePullSecrets:
+        - name: dockerconfigjson
