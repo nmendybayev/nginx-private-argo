@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: dockerconfigjson
+  namespace: proxy-3
+type: kubernetes.io/dockerconfigjson
+data:
+  .dockerconfigjson: ewogICJhdXRocyI6IHsKICAgICJodHRwczovL2luZGV4LmRvY2tlci5pby92MS8iOiB7CiAgICAgICJ1c2VybmFtZSI6ICJudXJib2xtIiwKICAgICAgInBhc3N3b3JkIjogImRja3JfcGF0XzNLUmVxMjAzU1YtS0NJN0VlVmt1THJUdVBKYyIsCiAgICAgICJlbWFpbCI6ICJubWVuZC5qb2JAZ21haWwuY29tIiwKICAgICAgImF1dGgiOiAiPGJhc2U2NF9lbmNvZGVkX3VzZXJuYW1lOnBhc3N3b3JkPiIKICAgIH0KICB9Cn0K
