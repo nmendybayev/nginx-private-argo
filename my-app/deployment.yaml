@@ -18,7 +18,7 @@ spec:
       containers:
         - name: nginx
           imagePullPolicy: Always
-          image: nurbolm/argocd:v0.1.1
+          image: nurbolm/argocd:v0.1.2
           ports:
             - containerPort: 80
       imagePullSecrets:
