@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx
-  namespace: dev
+  namespace: default
   labels:
     app: nginx
 spec:
@@ -18,7 +18,7 @@ spec:
       containers:
         - name: nginx
           imagePullPolicy: Always
-          image: nurbolm/argocd:v0.1.2
+          image: nurbolm/argocd:v0.1.0
           ports:
             - containerPort: 80
       imagePullSecrets:
