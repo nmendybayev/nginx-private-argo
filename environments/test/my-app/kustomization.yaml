@@ -3,6 +3,7 @@ kind: Kustomization
 metadata:
   name: arbitrary
 resources:
+  - dockerconfigjson.yaml
   - deployment.yaml
   - namespace.yaml
-  - dockerconfigjson.yaml
+  

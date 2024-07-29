@@ -1,3 +1,4 @@
+# SECRET FOR THE DOCKERHUB PRIVATE REPO
 apiVersion: v1
 kind: Secret
 metadata:
