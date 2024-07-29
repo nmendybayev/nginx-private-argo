@@ -7,7 +7,7 @@ images:
     newName: nurbolm/argocd
     newTag: v0.1.0
 resources:
-  - ../../../my-app
+  - ../my-app/
 patches:
   - target:
       kind: Deployment

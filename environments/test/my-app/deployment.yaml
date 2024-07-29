@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx-deployment
+  namespace: test
   labels:
     app: nginx
 spec:
@@ -19,4 +20,3 @@ spec:
           image: nurbolm/argocd
           ports:
             - containerPort: 80
-

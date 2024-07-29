@@ -1,9 +1,8 @@
-# SECRET FOR THE DOCKERHUB PRIVATE REPO
 apiVersion: v1
 kind: Secret
 metadata:
   name: dockerconfigjson
-  namespace: default
+  namespace: test
 type: kubernetes.io/dockerconfigjson
 data:
   .dockerconfigjson: ewogICJhdXRocyI6IHsKICAgICJodHRwczovL2luZGV4LmRvY2tlci5pby92MS8iOiB7CiAgICAgICJ1c2VybmFtZSI6ICJudXJib2xtIiwKICAgICAgInBhc3N3b3JkIjogImRja3JfcGF0XzNLUmVxMjAzU1YtS0NJN0VlVmt1THJUdVBKYyIsCiAgICAgICJlbWFpbCI6ICJubWVuZC5qb2JAZ21haWwuY29tIgogICAgfQogIH0KfQ==
