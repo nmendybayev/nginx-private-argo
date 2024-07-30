@@ -3,7 +3,7 @@ kind: Kustomization
 metadata:
   name: arbitrary
 resources:
-  - dockerconfigjson.yaml
+  - docker-sealed-secret-1.yaml
   - deployment.yaml
   - namespace.yaml
   
